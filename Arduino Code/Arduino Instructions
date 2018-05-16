@@ -1,0 +1,18 @@
+This is the code for the Arduino. Make sure you install the CmdMessenger library, or include the .cpp and .h files in the same folder as the sketch.
+
+Hardware:
+-Arduino Mega 2560
+  -Connected to the Raspberry Pi via USB cable
+  -Connected to ground
+-Sabertooh Dual 2x32 Regenerative motor controllers
+  - https://www.dimensionengineering.com/products/sabertooth2x32 
+  -Dip switches 
+      1 - 1
+      2 - 0
+      3 - 0
+      4 - 0
+      5 - 1
+      6 - 1
+   -PWM signal plugged into each motors respective Serial port. 
+   - Motor A - S1
+   - Motor B - S2
